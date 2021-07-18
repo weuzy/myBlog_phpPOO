@@ -1,0 +1,18 @@
+{
+    "name": "ousseynou/weuzy-site",
+    "description": "Mon premier blog réalisé avec php en utilisant le pradigmme de la programmation orienté et objet",
+    "authors": [
+        {
+            "name": "Ousseynou Diop",
+            "email": "diopp1017@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Router\\": "routes/",
+            "App\\": "app/",
+            "Database\\": "database/"
+        }
+    },
+    "require": {}
+}
