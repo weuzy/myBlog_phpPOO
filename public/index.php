@@ -9,8 +9,8 @@ use App\Exceptions\NotFoundException;
     define('SCRIPTS', dirname($_SERVER['SCRIPT_NAME']) . DIRECTORY_SEPARATOR);
     define('DB_NAME', 'weuzySite' );
     define('DB_HOST', 'localhost');
-    define('DB_USER', 'weuzy');
-    define('DB_PWD', 'poid19');
+    define('DB_USER', 'root');
+    define('DB_PWD', '');
 
     $router = new Router($_GET['url']);
 
